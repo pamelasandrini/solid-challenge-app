@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: solid-challenge-app  jpa:    hibernate:      ddl-auto: create-drop
+server:  servlet:    context-path: /sca    
+  port: 8080
